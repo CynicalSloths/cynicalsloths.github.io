@@ -5,6 +5,10 @@
 
 - type: twitter
   icon: "fab fa-twitter"
+  
+- type: itch.io
+  icon: 'fa-brands fa-itch-io'
+  url: 'https://cynicalsloths.itch.io/'
 
 - type: email
   icon: "fas fa-envelope"
