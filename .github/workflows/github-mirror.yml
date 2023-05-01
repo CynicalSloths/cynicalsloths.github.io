@@ -17,7 +17,7 @@ jobs:
           echo "${{ secrets.GITHUB_TOKEN }}" | gh auth login --with-token
           gh auth status
 
-      - name: Mirror Github master
+      - name: Mirror Github master test
         uses: CynicalSloths/action-mirror-git@main
         with:
           source_protocol: https
