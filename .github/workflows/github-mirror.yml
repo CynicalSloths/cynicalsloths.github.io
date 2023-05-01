@@ -24,9 +24,14 @@ jobs:
           source_host: github.com
           source_username: CynicalSloths
           source_token: ${{ secrets.GITHUB_TOKEN }}
+          source_repo_name: cynicalsloths.github.io-drafts
           dest_protocol: https
           dest_host: github.com
           dest_username: CynicalSloths
           dest_token: ${{ secrets.DEST_TOKEN_GITHUB }}
+          dest_repo_name: cynicalsloths.github.io
+          mirror_repos: 
+          push_branch_only: true
+          push_branch_name: master
           notify_prefix: "Mirror Action on Github"
           ignore_error: "true"
